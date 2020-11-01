@@ -2,7 +2,7 @@ Ford Fulkerson's Max-Flow Problem Solver
 ======
 Description:
 ------
-This program is an implementation of two versions of FordFulkerson's method for finding the maximal flow of a simple, directed, weighted graph.
+This program is an implementation of two versions of FordFulkerson's algorithm for finding the maximal flow of a simple, directed, weighted graph.
 The program is based on Ford Fulkerson's algorithm, using BFS, and a variation of Dijkstra's algorithm, all of which were implemented from scratch.
 The difference between the methods is mainly the way in which they look for an improving path in each iteration.
 The first method uses BFS for the aformentioned purpose, and the second one uses a greedy approach - it looks for the path in which the improvement is maximal in each iteration.
